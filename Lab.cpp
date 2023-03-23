@@ -58,7 +58,7 @@ int main(int argc, char **argv) {
 
     // Create a window and display text instructions
     namedWindow("Image Thresholding", WINDOW_AUTOSIZE);
-    cout << "Press 's' to save and 'ESC' to quit." << endl;
+    cout << "Press 's' to save an image and 'ESC' to quit." << endl;
 
     // Add a trackbar for threshold value to the window (from 0 to 255 included)
     createTrackbar("Threshold val", "Image Thresholding", &thresholdValue, 255, updateBinaryThresholdValue);
